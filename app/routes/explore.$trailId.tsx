@@ -66,11 +66,11 @@ export default function Explore() {
               </button>
             </div>
           </div>
-          <div className="flex flex-col mt-12 border-slate-200 gap-6">
+          <div className="flex flex-col mt-12 border-slate-200 gap-6 w-[800px] min-h-32">
             {stepsData.map((step, index) => (
               <div
                 key={index}
-                className="p-6 bg-white w-[800px] min-h-32 rounded-lg border-2"
+                className="p-6 bg-white rounded-lg border-2"
               >
                 <p className="text-lg font-bold mb-2 text-customPurple">
                   {step.title}
